@@ -18,4 +18,10 @@ namespace Git1
         await Navigation.PushAsync(new messi());
 
     }
+
+    private async void Estadistica1(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new messi());
+
+    }
 }

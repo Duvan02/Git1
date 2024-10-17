@@ -5,15 +5,18 @@
 
     <VerticalStackLayout>
         <Label 
-Text="Los Mejores Jugadores de Europa"
-VerticalOptions="Center" 
-HorizontalOptions="Center" />
+                Text="Los Mejores Jugadores de Europa"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
 
         <Image Source="mejoresjugadores"
-   Margin="0,30"/>
+                Margin="0,30"/>
 
         <Button Text="Estadisticas Messi"
-    Clicked="Estadistica"/>
+                Clicked="Estadistica"/>
+
+        <Button Text="Estadisticas Cristiano"
+                Clicked="Estadistica1"/>
 
 
     </VerticalStackLayout>
